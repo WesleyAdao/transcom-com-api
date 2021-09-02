@@ -1,0 +1,40 @@
+<section>
+  <div class="container text-center p-5">
+    <table class="table table-hover">
+      <tr>
+        <th>Código</th>
+        <th>Cidade de Origem</th>
+        <th>Estado de Origem</th>
+        <th>Cidade de Destino</th>
+        <th>Estado de Destino</th>
+        <th>Cidade de Localizacao</th>
+        <th>Estado de Localizacao</th>
+        <th>Data de Envio</th>
+        <th>Data de Previsao</th>
+        <th>Data de Entrega</th>
+        <th>Status</th>
+      </tr>
+
+      <tr *ngFor="let consulta of consultas | async">
+
+        <td> {{ consulta.codigo }} </td>
+        <td> {{ consulta.cidadeOrigem }} </td>
+        <td> {{ consulta.estadoOrigem }} </td>
+        <td> {{ consulta.cidadeDestino }} </td>
+        <td> {{ consulta.estadoDestino }} </td>
+        <td> {{ consulta.cidadeLocalizacao }} </td>
+        <td> {{ consulta.estadoLocalizacao }} </td>
+        <td> {{ consulta.dataEnvio | date }} </td>
+        <td> {{ consulta.dataPrevisao | date }} </td>
+        <td> {{ consulta.dataEntrega | date }} </td>
+        <td> {{ consulta.status }} </td>
+
+      </tr>
+    </table>
+
+  </div>
+
+  <button (click)="return()">Voltar</button>
+
+</section>
+

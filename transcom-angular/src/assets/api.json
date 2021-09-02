@@ -1,0 +1,60 @@
+{
+    "cidadeOrigem": "Sao Paulo",
+	"estadoOrigem": "SP",
+	"cidadeDestino": "Salvador",
+	"estadoDestino": "BA",
+	"cidadeLocalizacao": "Salvador",
+	"estadoLocalizacao": "BA",
+	"dataEnvio": "2021-04-03",
+	"dataPrevisao": "2021-04-03",
+	"dataEntrega": "2021-04-07",
+	"status": "entregue"
+},
+{
+    "cidadeOrigem": "Sao Paulo",
+	"estadoOrigem": "SP",
+	"cidadeDestino": "Recife",
+	"estadoDestino": "PE",
+	"cidadeLocalizacao": "Recife",
+	"estadoLocalizacao": "PE",
+	"dataEnvio": "2021-05-05",
+	"dataPrevisao": "2021-05-05",
+	"dataEntrega": "2021-05-10",
+	"status": "entregue"
+},
+{
+    "cidadeOrigem": "Sao Paulo",
+	"estadoOrigem": "SP",
+	"cidadeDestino": "Rio de Janeiro",
+	"estadoDestino": "RJ",
+	"cidadeLocalizacao": "Rio de Janeiro",
+	"estadoLocalizacao": "RJ",
+	"dataEnvio": "2021-06-01",
+	"dataPrevisao": "2021-06-01",
+	"dataEntrega": "2021-06-02",
+	"status": "entregue"
+},
+{
+    "cidadeOrigem": "Sao Paulo",
+	"estadoOrigem": "SP",
+	"cidadeDestino": "Pelotas",
+	"estadoDestino": "RS",
+	"cidadeLocalizacao": "Pelotas",
+	"estadoLocalizacao": "RS",
+	"dataEnvio": "2021-07-15",
+	"dataPrevisao": "2021-07-15",
+	"dataEntrega": "2021-07-17",
+	"status": "entregue"
+},
+{
+    "cidadeOrigem": "Sao Paulo",
+	"estadoOrigem": "SP",
+	"cidadeDestino": "Rio Branco",
+	"estadoDestino": "AC",
+	"cidadeLocalizacao": "Sao Paulo",
+	"estadoLocalizacao": "SP",
+	"dataEnvio": "2021-08-31",
+	"dataPrevisao": "2021-09-08",
+	"dataEntrega": "2021-09-08",
+	"status": "a caminho"
+}

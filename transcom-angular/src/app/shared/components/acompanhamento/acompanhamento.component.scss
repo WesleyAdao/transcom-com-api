@@ -1,0 +1,18 @@
+section {
+
+  width: 100%;
+  height: auto;
+  padding: 10%;
+  padding-top: 15vh;
+
+}
+
+@media (max-width: 550px) {
+
+  section {
+
+    padding-top: 25vh;
+
+  }
+
+}

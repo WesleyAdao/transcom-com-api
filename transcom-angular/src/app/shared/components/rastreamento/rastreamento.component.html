@@ -1,0 +1,12 @@
+<section class="container">
+  <form #form="ngForm" (ngSubmit)="consultar(form)">
+    <div class="input-field">
+      <label for="codigo">Coloque o código de rastreamento</label><br><br>
+      <input type="text" name="codigo" [(ngModel)]="codigo"><br><br>
+    </div>
+
+    <button type="submit" class="btn waves-effect waves-light" >Consultar</button>
+  </form>
+  <br><br>
+  <div *ngIf="notFound">Não foi encontrado nenhum item!</div>
+</section>
