@@ -15,7 +15,7 @@ export class ConsultaRastreamentoService {
   ) { }
 
   public getConsulta(): Observable<Array<Consultas>> {
-    return this.http.get<Array<Consultas>>('http://localhost:3000/consulta');
+    return this.http.get<Array<Consultas>>('http://localhost:8080/rastreamento');
   }
 
   public consulta() { return this.consultas; }
